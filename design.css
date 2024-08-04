@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(23, 23, 69);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Garante que o body ocupe toda a altura da tela */
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+.container {
+    width: 90%; /* Ajustado para ocupar 90% da largura da tela */
+    max-width: 1200px;
+    text-align: center;
+    background-color: rgb(23, 23, 69);
+    padding: 20px;
+    box-sizing: border-box; /* Inclui padding na largura total */
+}
+
+ul {
+    margin: 20px auto;
+    padding: 0;
+    font-size: 20px; /* Ajustado para um tamanho de fonte menor */
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: transparent;
+    font-size: 80px; /* Ajustado para um tamanho de fonte menor */
+    font-weight: 900;
+    background-image: url(https://i.pinimg.com/564x/d8/10/bb/d810bbc98381b19df87d7706fc709798.jpg);
+    background-size: contain;
+    background-position: center;
+    background-clip: text;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    font-size: 35px; /* Ajustado para um tamanho de fonte menor */
+}
+
+h3 {
+    font-size: 28px; /* Ajustado para um tamanho de fonte menor */
+}
+
+p {
+    font-size: 20px; /* Ajustado para um tamanho de fonte menor */
+    margin: 20px;
+}
+
+img {
+    width: 100%;
+    max-width: 600px; /* Ajustado para um tamanho de imagem menor */
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid rgb(23, 23, 69);
+    margin-bottom: 20px; /* Adiciona espaçamento após cada imagem */
+}
+
+.intro, .mago, .vingador, .tiamat, .uni, .bobby, .hank, .eric, .sheila, .presto, .diana {
+    margin: 30px auto; /* Centraliza e usa margem automática */
+    max-width: 80%; /* Limita a largura dos parágrafos */
+    text-align: left;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+a {
+    color: white;
+    font-size: 18px; /* Ajustado para um tamanho de fonte menor */
+}
+
+.vingador-image {
+    max-width: 500px; /* Define um tamanho máximo específico para a imagem do Vingador */
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .intro, .mago, .vingador, .tiamat, .uni, .bobby, .hank, .eric, .sheila, .presto, .diana {
+        margin: 15px auto;
+        max-width: 90%;
+    }
+
+    img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
